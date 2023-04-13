@@ -41,8 +41,8 @@
             <artifactId>gitflow-maven-plugin</artifactId>
             <version>1.19.0</version>
             <configuration>
-                       <!-- <productionBranch>main</productionBranch>
-         <developmentBranch>main</developmentBranch>-->
+                       <productionBranch>master</productionBranch>
+                <developmentBranch>develop</developmentBranch>
             </configuration>
         </plugin>
 		</plugins>
