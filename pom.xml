@@ -36,13 +36,13 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
             
-                    <plugin>
+        <plugin>
             <groupId>com.amashchenko.maven.plugin</groupId>
             <artifactId>gitflow-maven-plugin</artifactId>
             <version>1.19.0</version>
             <configuration>
-                        <productionBranch>main</productionBranch>
-         <developmentBranch>main</developmentBranch>
+                       <!-- <productionBranch>main</productionBranch>
+         <developmentBranch>main</developmentBranch>-->
             </configuration>
         </plugin>
 		</plugins>
